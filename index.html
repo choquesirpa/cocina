@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas de Cocina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .recipe-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .recipe-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .recipe-card:hover {
+            transform: scale(1.05);
+        }
+        h2 {
+            font-size: 1.5rem;
+            color: #333;
+        }
+        p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+        .ingredients, .instructions {
+            text-align: left;
+            margin-top: 10px;
+        }
+        .ingredients ul, .instructions ul {
+            padding-left: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recetas de Cocina Fáciles</h1>
+    </header>
+
+    <div class="recipe-container">
+        <!-- Receta 1 -->
+        <div class="recipe-card">
+            <h2>Spaghetti a la Carbonara</h2>
+            <img src="https://via.placeholder.com/300x200" alt="Spaghetti a la Carbonara" width="100%">
+            <div class="ingredients">
+                <h3>Ingredientes:</h3>
+                <ul>
+                    <li>200g de espaguetis</li>
+                    <li>100g de panceta</li>
+                    <li>2 huevos</li>
+                    <li>50g de queso parmesano rallado</li>
+                    <li>Pimienta negra al gusto</li>
+                    <li>Aceite de oliva</li>
+                </ul>
+            </div>
+            <div class="instructions">
+                <h3>Instrucciones:</h3>
+                <ul>
+                    <li>Cuece los espaguetis en agua con sal según las indicaciones del paquete.</li>
+                    <li>En una sartén, cocina la panceta con un poco de aceite de oliva hasta que esté crujiente.</li>
+                    <li>Bate los huevos en un bol y añade el queso rallado, mezclando bien.</li>
+                    <li>Escurre la pasta, mezcla con la panceta y luego añade la mezcla de huevos y queso.</li>
+                    <li>Mezcla bien, agrega pimienta negra y sirve caliente.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Receta 2 -->
+        <div class="recipe-card">
+            <h2>Ensalada César</h2>
+            <img src="https://via.placeholder.com/300x200" alt="Ensalada César" width="100%">
+            <div class="ingredients">
+                <h3>Ingredientes:</h3>
+                <ul>
+                    <li>Lechuga romana</li>
+                    <li>Croutons</li>
+                    <li>Queso parmesano rallado</li>
+                    <li>Aderezo César</li>
+                    <li>Pechuga de pollo a la parrilla (opcional)</li>
+                </ul>
+            </div>
+            <div class="instructions">
+                <h3>Instrucciones:</h3>
+                <ul>
+                    <li>Lava y corta la lechuga romana en trozos medianos.</li>
+                    <li>Coloca los croutons y el queso parmesano sobre la lechuga.</li>
+                    <li>Si deseas, agrega pechuga de pollo a la parrilla cortada en tiras.</li>
+                    <li>Vierte el aderezo César por encima y mezcla bien.</li>
+                    <li>Sirve inmediatamente.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Recetas de Cocina | Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
